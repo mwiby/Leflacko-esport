@@ -1,22 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Teko:wght@300;400;500&display=swap");
 :root {
   /* Colour Palette  */
-  --green: #87d68d;
-  --darkGreen: #93b48b;
-  --lightGreen: #bcebcb;
-  --orange: #faa712;
-  --lightOrange: #fcc359;
+  --darkGreen: #003844;
+  --lightGreen: #008975;
+  --royal: #27516a;
   --black: #000000;
   --grey: #8491a3;
-  --lightGrey: #f7fff6;
   --white: #ffffff;
 
   /* Usage */
   --background: var(--grey);
-  --lineColor: var(--lightGrey);
-  --textColor: var(--black);
-  --hColor: var(--black);
-  --linkColor: var(--green);
+  --lineColor: var(--lightGreen);
+  --textColor: var(--darkGreen);
+  --hColor: var(--lightGreen);
+  --linkColor: var(--royal);
 
   /* Typography */
   --headingFont: "Poppins", sans-serif;
@@ -84,7 +81,7 @@ body {
   font-family: var(--bodyFont);
   font-weight: var(--bodyWeight);
   line-height: 1.65;
-  background: var(--docBackground);
+  background: var(--background);
   color: var(--textColor);
 }
 
