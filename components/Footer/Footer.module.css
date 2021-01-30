@@ -1,4 +1,8 @@
 .container {
-  background: red;
-  height: 100px;
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-image: url("/images/footer.svg");
+  padding-top: 225px;
+  color: var(--white);
 }

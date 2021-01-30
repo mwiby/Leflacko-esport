@@ -9,10 +9,10 @@
   --white: #ffffff;
 
   /* Usage */
-  --background: var(--grey);
+  --background: var(--white);
   --lineColor: var(--lightGreen);
-  --textColor: var(--darkGreen);
   --hColor: var(--lightGreen);
+  --textColor: var(--darkGreen);
   --linkColor: var(--royal);
 
   /* Typography */
@@ -48,7 +48,7 @@
   --containerHorizontalPadding: 1.25rem;
 
   /* Waves */
-  --wave: var(--lightGrey);
+  --wave: var(--lightGreen);
 }
 
 /* Breakpoints */
