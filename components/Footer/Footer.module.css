@@ -1,8 +1,17 @@
 .container {
+  --textColor: var(--white);
+  --hColor: var(--white);
+  --linkColor: var(--white);
   position: relative;
   height: 400px;
   background-size: cover;
   background-image: url("/images/footer.svg");
-  padding-top: 225px;
+  padding-top: 140px;
   color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  margin-top: 15px;
 }

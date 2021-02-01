@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Teko:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:wght@300;400;500&display=swap");
+
 :root {
   /* Colour Palette  */
   --darkGreen: #003844;
@@ -11,18 +12,18 @@
   /* Usage */
   --background: var(--white);
   --lineColor: var(--lightGreen);
-  --hColor: var(--lightGreen);
-  --textColor: var(--darkGreen);
-  --linkColor: var(--royal);
+  --hColor: var(var(--darkGreen));
+  --textColor: var(--royal);
+  --linkColor: var(--lightGreen);
 
   /* Typography */
   --headingFont: "Poppins", sans-serif;
-  --bodyFont: "Playfair Display", sans-serif;
+  --bodyFont: "Open Sans", sans-serif;
   --headingWeight: 400;
   --bodyWeight: 400;
   --baseFontSize: 112.5%;
 
-  --p: 1.25rem;
+  --p: 1.15rem;
   --h1: 3.052rem;
   --h2: 2.441rem;
   --h3: 1.953rem;
@@ -86,11 +87,11 @@ body {
 }
 
 *:focus {
-  outline-color: var(--pink);
+  outline-color: var(--darkGreen);
 }
 
 *::selection {
-  background-color: var(--pink);
+  background-color: var(--darkGreen);
   color: var(--white);
 }
 
@@ -220,7 +221,11 @@ button {
   --buttonBackground: var(--white);
   --buttonTextColor: var(--white);
 
-  background: linear-gradient(0.25turn, var(--pink) 30%, var(--blue));
+  background: linear-gradient(
+    0.25turn,
+    var(--lightGreen) 30%,
+    var(--darkGreen)
+  );
   color: var(--buttonTextColor);
   appearance: none;
   border: none;
@@ -232,7 +237,7 @@ button {
 }
 
 button:hover {
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-4);
 }
 
 button:focus {

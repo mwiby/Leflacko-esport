@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
+import { CallToAction } from "../sections";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -30,6 +31,7 @@ export default function Index({ allPosts }) {
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
+        <CallToAction />
       </Layout>
     </>
   );
