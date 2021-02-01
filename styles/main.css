@@ -8,6 +8,7 @@
   --black: #000000;
   --grey: #8491a3;
   --white: #ffffff;
+  --lightGrey: #e7e7e7;
 
   /* Usage */
   --background: var(--white);
