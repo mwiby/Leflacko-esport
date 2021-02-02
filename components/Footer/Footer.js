@@ -9,7 +9,7 @@ export default function Footer() {
         <div style={styles.logo}>
           <Image
             src="/images/logo1.png"
-            alt="Flacko logo"
+            alt="Player logo"
             className={styles.image}
             height={80}
             width={80}
