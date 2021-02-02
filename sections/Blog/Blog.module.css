@@ -1,18 +1,34 @@
 .container {
+  margin-top: 170px;
+  margin-bottom: 350px;
+  position: relative;
   background: var(--white);
+  padding: 40px 0;
+}
+.container::after {
+  position: absolute;
+  content: "";
+  background-image: url("/images/vector-white.svg");
+  background-size: cover;
+  height: 260px;
+  bottom: -242px;
+  left: 0;
+  right: 0;
 }
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
-.postContainer {
-  display: flex;
-}
+
 .grid {
   display: grid;
   grid-template-columns: 350px 350px 350px;
   gap: 30px;
   justify-content: center;
+}
+.postContainer {
+  display: flex;
 }

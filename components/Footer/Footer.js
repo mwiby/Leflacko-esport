@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h5>Contact</h5>
             <ul>
-              <li>Email: flacko@gmail.com</li>
+              <li>markusb@nordevo.no</li>
             </ul>
           </div>
           <div>

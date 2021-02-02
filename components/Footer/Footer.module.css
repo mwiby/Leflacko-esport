@@ -3,15 +3,16 @@
   --hColor: var(--white);
   --linkColor: var(--white);
   position: relative;
-  height: 600px;
+  height: 500px;
   background-size: cover;
   background-image: url("/images/footer.svg");
-  padding: 200px 0;
+  padding: 150px 0;
   color: var(--white);
 }
 
 .grid {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr 1fr;
-  margin-top: 15px;
+  gap: 40px;
+  margin-top: 5px;
 }

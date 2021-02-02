@@ -24,7 +24,7 @@ export default function Blog({ posts }) {
         })}
       </div>
 
-      <button>See More</button>
+      {/*<button>See More</button>*/}
     </section>
   );
 }
