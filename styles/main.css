@@ -8,10 +8,10 @@
   --black: #000000;
   --grey: #8491a3;
   --white: #ffffff;
-  --lightGrey: #e7e7e7;
+  --lightGrey: #f0f0f0;
 
   /* Usage */
-  --background: var(--white);
+  --background: var(--lightGrey);
   --lineColor: var(--lightGreen);
   --hColor: var(var(--darkGreen));
   --textColor: var(--royal);

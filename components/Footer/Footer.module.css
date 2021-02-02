@@ -3,10 +3,10 @@
   --hColor: var(--white);
   --linkColor: var(--white);
   position: relative;
-  height: 400px;
+  height: 600px;
   background-size: cover;
   background-image: url("/images/footer.svg");
-  padding-top: 140px;
+  padding: 200px 0;
   color: var(--white);
 }
 

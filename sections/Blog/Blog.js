@@ -4,20 +4,26 @@ import { PostPreview } from "../../components";
 export default function Blog({ posts }) {
   return (
     <section className={styles.container}>
-      {posts.map(({ title, coverImage, date, excerpt, author, slug }) => {
-        return (
-          <div>
-            <PostPreview
-              title={title}
-              coverImage={coverImage}
-              date={date}
-              excerpt={excerpt}
-              author={author}
-              slug={slug}
-            />
-          </div>
-        );
-      })}
+      <div className={styles.title}>
+        <h2>Reading Recommendation</h2>
+        <p>See my latest posts</p>
+      </div>
+      <div className={styles.grid}>
+        {posts.map(({ title, coverImage, date, excerpt, author, slug }) => {
+          return (
+            <div className={styles.postContainer}>
+              <PostPreview
+                title={title}
+                coverImage={coverImage}
+                excerpt={excerpt}
+                author={author}
+                slug={slug}
+              />
+            </div>
+          );
+        })}
+      </div>
+
       <button>See More</button>
     </section>
   );

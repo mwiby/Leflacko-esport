@@ -1,17 +1,27 @@
 import styles from "./Footer.module.css";
+import Image from "next/image";
 import { Container } from "../";
 
 export default function Footer() {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <Container>
-        <div style={styles.logo}></div>
+        <div style={styles.logo}>
+          <Image
+            src="/images/logo1.png"
+            alt="Flacko logo"
+            className={styles.image}
+            height={80}
+            width={80}
+          />
+        </div>
         <div className={styles.grid}>
           <div>
             <h5>About me</h5>
             <p>
-              I'm a Norwegian CoD player that loves to stream on Twitch.
-              <br></br> Check out my channel -
+              I'm a Norwegian Gamer that play Call Of Duty <br></br> and I do
+              streams on Twitch. Do you want to team up ?<br></br> Check out my
+              channel &nbsp;
               <a href="https://www.twitch.tv/leflacko" target="_blank">
                 Flacko
               </a>
@@ -39,6 +49,6 @@ export default function Footer() {
           </div>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 }

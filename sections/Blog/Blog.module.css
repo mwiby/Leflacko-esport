@@ -1,0 +1,18 @@
+.container {
+  background: var(--white);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postContainer {
+  display: flex;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 30px;
+  justify-content: center;
+}
