@@ -1,24 +1,38 @@
 .container {
-  background: blue;
-  padding: 15px;
+  background-image: url("/images/herobackground.svg");
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-bottom: 380px;
 }
-.container > * {
+
+.container h1 {
   color: var(--white);
 }
 .container p {
+  color: var(--white);
   line-height: 0.8rem;
   font-size: 1.4rem;
 }
-.buttonSecondary {
-  background: transparent;
-  color: var(--buttonTextColor);
-  appearance: none;
-  border: none;
-  border-radius: 60px;
-  height: 50px;
-  min-width: 145px;
-  box-shadow: none;
-  border: 2px solid white;
-  min-width: 170px;
-  transition: 0.3s all ease-in-out;
+
+.btn {
+  background: var(--lightGreen);
+  border-radius: 35px;
+  color: white;
+  padding: 15px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 2px;
+  cursor: pointer;
+  min-width: 200px;
+  box-shadow: var(--shadow-4);
+  transition: 0.3s ease-in-out box-shadow;
 }

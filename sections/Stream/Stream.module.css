@@ -1,5 +1,5 @@
 .container {
-  padding: 0 0 100px;
+  padding: 60px 0 100px;
 }
 
 .title {
@@ -32,7 +32,7 @@
   width: 300px;
   box-shadow: var(--shadow-4);
 }
-.card > h3 {
+.card > h4 {
   color: var(--grey);
 }
 .postLink > h5 {
