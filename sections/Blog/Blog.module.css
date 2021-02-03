@@ -1,17 +1,4 @@
-.container::before {
-  position: absolute;
-  content: "";
-  background-image: url("/images/vector-grey.svg");
-  background-size: cover;
-  height: 770px;
-  top: -120px;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
 .container {
-  z-index: -2;
   margin-top: 30px;
   margin-bottom: 250px;
   position: relative;
@@ -24,16 +11,18 @@
   background-image: url("/images/vector-white.svg");
   background-size: cover;
   height: 260px;
-  bottom: -242px;
+  bottom: -212px;
   left: 0;
   right: 0;
 }
+
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .grid {

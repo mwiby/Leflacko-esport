@@ -6,7 +6,8 @@
   height: 500px;
   background-size: cover;
   background-image: url("/images/footer.svg");
-  padding: 150px 0;
+  padding-top: 55px;
+
   color: var(--white);
 }
 

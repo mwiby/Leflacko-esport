@@ -1,4 +1,5 @@
 import styles from "./Stream.module.css";
+import Image from "next/image";
 
 export default function Stream() {
   return (
@@ -11,9 +12,35 @@ export default function Stream() {
         </p>
       </div>
       <div className={styles.grid}>
-        <div className={styles.card}>Card</div>
-        <div className={styles.card}>Card</div>
-        <div className={styles.card}>Card</div>
+        <div className={styles.card}>
+          <Image
+            src="/images/game-setup.jpg"
+            alt="Stream setup "
+            className={styles.image}
+            height={330}
+            width={300}
+          />
+        </div>
+        <div className={styles.card}>
+          <h4>Twitch Channel</h4>
+          <a
+            className={styles.postLink}
+            aria-label="Twitch"
+            href="https://www.twitch.tv/leflacko"
+            target="_blank"
+          >
+            <h5>FLACKO</h5>
+          </a>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/images/character-CoD.jpg"
+            alt="Stream setup v2"
+            className={styles.image}
+            height={330}
+            width={300}
+          />
+        </div>
       </div>
     </section>
   );

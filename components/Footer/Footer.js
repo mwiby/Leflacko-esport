@@ -19,9 +19,9 @@ export default function Footer() {
           <div>
             <h5>About me</h5>
             <p>
-              I'm a Norwegian Gamer that play Call Of Duty <br></br> and I do
-              streams on Twitch. Do you want to team up ?<br></br> Check out my
-              channel &nbsp;
+              I'm a Call of Duty Streamer from the south of Norway.<br></br>I
+              enjoy creating good and hilarious CoD content, and sharing this
+              with others around the world.<br></br> Check out my channel &nbsp;
               <a href="https://www.twitch.tv/leflacko" target="_blank">
                 Flacko
               </a>
@@ -30,7 +30,6 @@ export default function Footer() {
           <div>
             <h5>Social</h5>
             <ul>
-              <li>Face</li>
               <li>TikTok</li>
               <li>Youtube</li>
             </ul>

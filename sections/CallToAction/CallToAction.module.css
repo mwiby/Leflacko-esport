@@ -7,3 +7,21 @@
 .container > h4 {
   margin-bottom: 25px;
 }
+.btn {
+  background: var(--lightGreen);
+  border-radius: 35px;
+  color: white;
+  padding: 15px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 2px;
+  cursor: pointer;
+  box-shadow: var(--shadow-4);
+  transition: 0.3s ease-in-out box-shadow;
+}
+
+.btn:hover {
+  background: var(--darkGreen);
+}
