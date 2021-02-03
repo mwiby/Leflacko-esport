@@ -3,10 +3,10 @@
   --hColor: var(--white);
   --linkColor: var(--white);
   position: relative;
-  height: 500px;
+  padding-top: 110px;
+  padding-bottom: 100px;
   background-size: cover;
   background-image: url("/images/footer.svg");
-  padding-top: 55px;
 
   color: var(--white);
 }
@@ -14,6 +14,8 @@
 .grid {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-top: 5px;
+  gap: 20px;
+}
+.grid h5 {
+  letter-spacing: 0.1em;
 }

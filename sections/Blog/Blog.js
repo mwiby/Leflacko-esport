@@ -6,12 +6,12 @@ export default function Blog({ posts }) {
     <section className={styles.container}>
       <div className={styles.title}>
         <h2>Reading Recommendation</h2>
-        <p>See my latest posts</p>
+        <p>See my latest posts.</p>
       </div>
       <div className={styles.grid}>
         {posts.map(({ title, coverImage, date, excerpt, author, slug }) => {
           return (
-            <div className={styles.postContainer}>
+            <div key={slug} className={styles.postContainer}>
               <PostPreview
                 title={title}
                 coverImage={coverImage}

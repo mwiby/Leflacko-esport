@@ -1,38 +1,26 @@
 .container {
   background-image: url("/images/herobackground.svg");
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
   position: relative;
   background-size: cover;
-  padding-top: 50px;
-  padding-left: 270px;
   padding-bottom: 380px;
+  margin: 0 auto;
 }
 
 .container h1 {
   color: var(--white);
-}
-.container p {
-  color: var(--white);
-  line-height: 0.8rem;
-  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  font-size: 5.052rem;
+  line-height: 3.5rem;
 }
 
-.btn {
-  background: var(--lightGreen);
-  border-radius: 35px;
-  color: white;
-  padding: 15px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 10px 2px;
-  cursor: pointer;
-  min-width: 200px;
-  box-shadow: var(--shadow-4);
-  transition: 0.3s ease-in-out box-shadow;
+.codText {
+  font-size: 1rem;
+  color: var(--lightYellow);
 }

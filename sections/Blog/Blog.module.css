@@ -9,8 +9,9 @@
   position: absolute;
   content: "";
   background-image: url("/images/vector-white.svg");
+
   background-size: cover;
-  height: 260px;
+  min-height: 260px;
   bottom: -212px;
   left: 0;
   right: 0;

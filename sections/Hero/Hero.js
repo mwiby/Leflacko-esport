@@ -13,16 +13,11 @@ export default function Hero() {
           width={150}
         />
       </div>
-      <div>
-        <h1>Player FLACKO</h1>
-        <p>I make Call of Duty: Warzone content .</p>
-        <a
-          href="mailto:markusb@nordevo.no"
-          target="_blank"
-          className={styles.btn}
-        >
-          Contact
-        </a>
+      <div className={styles.headerText}>
+        <h1>
+          <span className={styles.codText}>Call of Duty Player</span>
+          <br></br>Flacko
+        </h1>
       </div>
     </section>
   );

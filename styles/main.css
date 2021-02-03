@@ -4,7 +4,7 @@
   /* Colour Palette  */
   --darkGreen: #003844;
   --lightGreen: #008975;
-  --lightYellow: #f5ff9b;
+  --lightYellow: #f8ffb8;
   --royal: #27516a;
   --black: #000000;
   --grey: #8491a3;
@@ -26,7 +26,7 @@
   --bodyWeight: 400;
   --baseFontSize: 112.5%;
 
-  --p: 1.15rem;
+  --p: 1.25rem;
   --h1: 3.052rem;
   --h2: 2.441rem;
   --h3: 1.953rem;
@@ -100,6 +100,7 @@ body {
 
 p {
   font-size: var(--p);
+  font-weight: 500;
   color: var(--textColor);
   margin-bottom: 1.15rem;
   max-width: 40em;
@@ -144,7 +145,7 @@ h5 {
   font-weight: var(--headingWeight);
   line-height: 1.15;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.04em;
 }
 
 h1 {
