@@ -18,10 +18,7 @@
   font-size: 20px;
   margin: 10px 2px;
   cursor: pointer;
+  min-width: 200px;
   box-shadow: var(--shadow-4);
   transition: 0.3s ease-in-out box-shadow;
-}
-
-.btn:hover {
-  background: var(--darkGreen);
 }

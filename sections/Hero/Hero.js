@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
       <div>
         <h1>Player FLACKO</h1>
-        <p>I make Call of Duty Warzone content .</p>
+        <p>I make Call of Duty: Warzone content .</p>
         <a
           href="mailto:markusb@nordevo.no"
           target="_blank"

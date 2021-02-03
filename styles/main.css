@@ -13,6 +13,7 @@
 
   /* Usage */
   --background: var(--lightGrey);
+  --background-doc: var(--black);
   --lineColor: var(--lightGreen);
   --hColor: var(var(--darkGreen));
   --textColor: var(--royal);
