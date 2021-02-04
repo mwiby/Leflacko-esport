@@ -7,8 +7,8 @@ export default function Stream() {
       <div className={styles.title}>
         <h3>Stream</h3>
         <p>
-          I stream on Twitch every week, let me know if you want to join in on
-          the Stream. Always fun talking with new people.
+          I will be on Twitch every week, let me know if you want to join in on
+          a Stream. Always fun talking with new people.
         </p>
       </div>
       <div className={styles.grid}>

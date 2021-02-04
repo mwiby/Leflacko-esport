@@ -10,7 +10,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Flacko</title>
+          <title>Flacko | CoD Warzone player</title>
         </Head>
         <div className={styles.container}>
           <Hero />
