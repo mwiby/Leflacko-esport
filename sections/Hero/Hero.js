@@ -15,7 +15,9 @@ export default function Hero() {
       </div>
       <div className={styles.headerText}>
         <h1>
-          <span className={styles.codText}>Call of Duty Player</span>
+          <span className={styles.codText}>
+            Call of Duty Player From Norway
+          </span>
           <br></br>Flacko
         </h1>
       </div>
