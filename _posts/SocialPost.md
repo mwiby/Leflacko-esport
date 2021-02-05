@@ -2,7 +2,7 @@
 title: "Check out Flacko on Social media"
 excerpt: "I have channel on youtube and TikTok, check them out for awesome videos."
 coverImage: "/assets/blog/socialPost/socialPlattform.jpg"
-date: "2021-04-16T05:35:07.322Z"
+date: "2021-02-05T05:35:07.322Z"
 author:
   name: Flacko
   picture: "/assets/blog/authors/Flacko.jpg"

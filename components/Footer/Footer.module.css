@@ -19,3 +19,28 @@
 .grid h5 {
   letter-spacing: 0.1em;
 }
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .box {
+    text-align: center;
+  }
+  .nordevo {
+    text-align: center;
+  }
+  .box p {
+    font-size: 0.9rem;
+    margin: 0 auto;
+  }
+  .box {
+    text-align: center;
+  }
+  .nordevo a {
+    font-size: 0.9rem;
+  }
+  .box li {
+    font-size: 0.9rem;
+  }
+}

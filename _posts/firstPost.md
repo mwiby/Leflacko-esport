@@ -2,7 +2,7 @@
 title: "Welcome to my blog"
 excerpt: "In the blog section I will post topics on CoD Warzone. Here the topics will vary everything from playing tips to my favorite maps."
 coverImage: "/assets/blog/firstPost/pic-post1.jpg"
-date: "2021-02-16T05:35:07.322Z"
+date: "2021-01-16T05:35:07.322Z"
 author:
   name: Flacko
   picture: "/assets/blog/authors/Flacko.jpg"

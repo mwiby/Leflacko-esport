@@ -48,8 +48,6 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
   /* Containers */
-  --containerMaxWidth: 100%;
-  --containerHorizontalPadding: 1.25rem;
 
   /* Waves */
   --wave: var(--lightGreen);
@@ -57,16 +55,7 @@
 
 /* Breakpoints */
 
-@media screen and (min-width: 640px) {
-  :root {
-    --containerMaxWidth: 640px;
-    --containerHorizontalPadding: 2rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  :root {
-    --containerMaxWidth: 1280px;
-  }
+@media screen and (min-width: 600px) {
 }
 
 /* @media screen and (max-width: 1024px) {

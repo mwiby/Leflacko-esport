@@ -12,12 +12,11 @@ export default function Index({ allPosts }) {
         <Head>
           <title>Flacko | CoD Warzone player</title>
         </Head>
-        <div className={styles.container}>
-          <Hero />
-          <Stream />
-          <Blog posts={allPosts} />
-          <CallToAction />
-        </div>
+
+        <Hero />
+        <Stream />
+        <Blog posts={allPosts} />
+        <CallToAction />
       </Layout>
     </>
   );
