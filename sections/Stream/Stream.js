@@ -16,14 +16,15 @@ export default function Stream() {
         </div>
         <div className={styles.card}>
           <h4>Twitch Channel</h4>
-          <a
-            className={styles.postLink}
-            aria-label="Twitch"
-            href="https://www.twitch.tv/leflacko"
-            target="_blank"
-          >
-            <h5>FLACKO</h5>
-          </a>
+          <div className={styles.postLink}>
+            <a
+              aria-label="Twitch"
+              href="https://www.twitch.tv/leflacko"
+              target="_blank"
+            >
+              <h5>FLACKO</h5>
+            </a>
+          </div>
         </div>
         <div className={styles.card}>
           <img
