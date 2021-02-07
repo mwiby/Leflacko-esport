@@ -24,3 +24,8 @@
   font-size: 1rem;
   color: var(--lightYellow);
 }
+
+.img img {
+  width: 150px;
+  height: 150px;
+}

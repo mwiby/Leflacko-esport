@@ -7,12 +7,10 @@ export default function Footer() {
     <footer className={styles.container}>
       <Container>
         <div style={styles.logo}>
-          <Image
+          <img
+            className={styles.image}
             src="/images/logo1.png"
             alt="Player logo"
-            className={styles.image}
-            height={80}
-            width={80}
           />
         </div>
         <div className={styles.grid}>

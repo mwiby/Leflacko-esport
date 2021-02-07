@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Avatar from "../../components/avatar";
 import Link from "next/link";
 import styles from "./PostPreview.module.css";
@@ -14,13 +13,12 @@ export default function PostPreview({
     <div className={styles.container}>
       <Link as={`/posts/${slug}`} href="/posts/[slug]">
         <a className={styles.postLink} aria-label={title}>
-          <Image
+          <img
+            className={styles.coverImg}
             src={coverImage}
-            alt={`Cover Image for ${title}`}
-            className={styles.image}
-            height={350}
-            width={350}
+            alt="Cover image for blog post"
           />
+
           <div>
             <div className={styles.pill}>CoD</div>
             <h3>{title}</h3>

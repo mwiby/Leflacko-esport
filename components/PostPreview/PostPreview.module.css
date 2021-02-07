@@ -5,8 +5,11 @@
   line-height: 1.2;
   margin-top: 16px;
 }
-.image {
+.coverImg {
+  width: 350px;
+  height: 350px;
   border-radius: 30px;
+  object-fit: cover;
 }
 
 .pill {
