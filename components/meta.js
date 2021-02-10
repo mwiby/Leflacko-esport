@@ -26,7 +26,11 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Website by Call of Duty player Flacko`}
+        content={`Entertainment for enthusiastic CoD Warzone players`}
+      />
+      <meta
+        name="keywords"
+        content="CoD Warzone streamer giving free pro map tactics"
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
