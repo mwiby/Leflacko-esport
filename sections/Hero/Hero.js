@@ -14,6 +14,7 @@ export default function Hero() {
           <br></br>Flacko
         </h1>
       </div>
+      <div></div>
     </section>
   );
 }
